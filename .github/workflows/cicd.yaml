@@ -1,5 +1,5 @@
-name: Hello World
-on: push
+name: Deploy dist
+on: [push,workflow_dispatch]
 
 jobs:
   say-hello:
